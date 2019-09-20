@@ -1,6 +1,12 @@
 # What Is It
 It is a tool which you can input chinese, the tool can transform your input to pinyin. You will have a good time to use it.
 
+```
+npm install chinese-transform-pinyin
+```
+
+Thanks `zhujun24` dictionary. It's very good
+
 # Have Three Options
 - `firstChar` only save the first char of the pinyin
 - `onlyTone` only save the tone of the pinyin
@@ -39,5 +45,5 @@ import Pinyin from 'chinese-transform-pinyin'
 Pinyin('今天天气不错哟', { firstChar: true, onlyTone: true }) // jī tā tā qì bù cò yō
 ```
 
-# A Tip
+## A Tip
 `you may choose the firstChar option and the removeTone option to use together, but the result may be same when you use three options together, so I just recommend you to use three option together when you want to do this, because I do not make it happen in this version`

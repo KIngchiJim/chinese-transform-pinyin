@@ -1,11 +1,24 @@
 {
   "name": "chinese-transform-pinyin",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "you can input chinese and then the tool can transform it to pinyin",
-  "main": "pinyin.min.js",
-  "author": "kingchijim",
+  "main": "index.min.js",
+  "types": "index.d.ts",
+  "author": "kchijim",
   "keywords": [
     "pinyin",
     "chinese-transform-pinyin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KIngchiJim/chinese-transform-pinyin.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KIngchiJim/chinese-transform-pinyin/issues"
+  },
+  "homepage": "https://github.com/KIngchiJim/chinese-transform-pinyin#readme",
+  "contributors": [
+    "zhujun24"
   ]
 }
