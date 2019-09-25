@@ -11,6 +11,7 @@ Thanks `zhujun24` dictionary. It's very good
 - `firstChar` only save the first char of the pinyin
 - `onlyTone` only save the tone of the pinyin
 - `removeTone` this option can transform the tone to the English char
+- `keepOrigin` save punctuation, number and English
 
 You can use the three options together or only use the one of them, also you can choose any two options to use together.
 
@@ -43,6 +44,13 @@ also you can
 import Pinyin from 'chinese-transform-pinyin'
 
 Pinyin('今天天气不错哟', { firstChar: true, onlyTone: true }) // jī tā tā qì bù cò yō
+```
+
+now you can save any which except Chinese
+```
+Pinyin('今天天气不错，一起出去吧？', { keepOrigin: true }) // jīn tiān tiān qì bù cuò ， yì qǐ chū qù ba？
+
+Pinyin('拼音库第1次尝试', { keepOrigin: true }) // pīn yīn kù dì 1 cì cháng shì
 ```
 
 ## A Tip
