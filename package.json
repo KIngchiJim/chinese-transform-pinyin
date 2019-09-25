@@ -1,6 +1,6 @@
 {
   "name": "chinese-transform-pinyin",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "you can input chinese and then the tool can transform it to pinyin",
   "main": "index.js",
   "types": "index.d.ts",
